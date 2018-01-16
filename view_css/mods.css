@@ -1,0 +1,57 @@
+<head>
+<style>
+
+.nav li { display: inline-block;
+}
+.dropdown { padding-left: 15px;
+            padding-right: 18px;
+}
+
+body {
+    background-image: url(../images/viewality-bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Agency FB', arial;
+    font-size: 48px;
+    text-shadow: 4px #aaa;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+.banner {
+    font-size: 150px;
+    font-weight: bold;
+    text-justify: inter-word;
+    ;
+}
+
+.solid-bar {
+    background-color:#FFFFFF;
+    padding:30px;
+}
+
+.semi-transparent-bar {
+    background-color:#FFBE4D;
+    opacity:0.42;
+    padding:25px;
+}
+
+.tv  {
+    width: 250px;
+    height:230px;
+    transform:translate(0%, 4%);
+    word-break: normal;
+}
+
+h2 {
+    font-weight: bolder;
+}
+</style>
+</head>
