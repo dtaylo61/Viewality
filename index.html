@@ -17,8 +17,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="../bs_css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="../view_css/mods.css"/>
+        <link rel="stylesheet" href="bs_css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="view_css/mods.css"/>
 
         <!-- Font embedding -->
         <link href="http://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />    
@@ -33,22 +33,23 @@
     
     <body>
         <div class="container-fluid">
-            <div class="jumbotron semi-transparent-bar" style="color:black; margin: -60px">
-                <img class="tv" src="../images/whiteTV.png">
-                <div style="transform:translate(0%, -500%)">
+            <div class="jumbotron semi-transparent-bar">
+                <img class="tv" src="images/whiteTV.png">
+                <div style="transform:translate(0%, -450%)">
                     <h2></h2>
                 </div>
             </div> 
-            <div class="jumbotron solid-bar" style="padding:4px; transform:translate(0%, -550%)">
-            </div>
+            
+            <hr>
+            
             <div class="container">
-                <div class="banner" style="margin-top: -78px"><p>V I E W A L I T Y</p>
+                <div class="banner" style="margin-top: 20px"><p>V I E W A L I T Y</p>
                 </div>
             </div>
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="../bs_js/bootstrap.min.js"></script>
+            <script src="bs_js/bootstrap.min.js"></script>
     
             <script>
                 document.addEventListener('DOMContentLoaded', function(){
@@ -96,9 +97,12 @@
                 });
             </script>
             
-            <div class="jumbotron solid-bar" style="padding:60px; transform:translate(0%, 20%);">
+            <div class="jumbotron icon-banner" style="padding:65px; transform:translate(0%, 20%)">
+                <a href="pages/home.html">
+                    <img src="images/blkcheckmark.png" class="checkmark-action" alt="Link to Home page">
+                </a>
             </div>
-            <a href="intro.html" style="color:#FFBE4D; font-size:16pt; vertical-align:top">--- Replay ---</a>
+            <a href="index.html" class="bottom-of-page-action">--- Replay ---</a>
         </div> <!-- /container -->
     </body>
 </html>
