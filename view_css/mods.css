@@ -47,6 +47,7 @@ hr {
 .icon-banner {
     background-color:#FFFFFF;
     padding: 0px;
+    margin-bottom: 0px;
     margin-top: -20px;
     height: 50px;
 }
@@ -77,11 +78,13 @@ h2 {
 .checkmark-action {
     width: 100px;
     height: 100px;
+    margin-top: -80px;
 }
 
 .bottom-of-page-action {
     color:#FFBE4D; 
     font-size:16pt;
+    text-align: top;
 }
 </style>
 </head>
