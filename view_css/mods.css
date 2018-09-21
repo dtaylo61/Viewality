@@ -1,12 +1,8 @@
-<head>
-<style>
-
 .nav li { display: inline-block;
 }
 .dropdown { padding-left: 15px;
             padding-right: 18px;
 }
-
 body {
     background-image: url(../images/viewality-bg.png);
     background-attachment: fixed;
@@ -19,19 +15,14 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-
-span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
-}
-
 .banner {
-    font-size: 150px;
+    font-size: 13vw;
     font-weight: bold;
     text-justify: inter-word;
-    ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-shadow: 4px 2px #000000;
 }
-
 hr {
     display: block;
     margin-top: 0px;
@@ -41,17 +32,14 @@ hr {
     border-style: solid;
     border-width: 3px;
     border-color: #FFFFFF;
-    width: 150%;
 }
-
 .icon-banner {
     background-color:#FFFFFF;
     padding: 0px;
-    margin-bottom: 0px;
-    margin-top: -20px;
-    height: 50px;
-}
-
+    margin-bottom: -10px;
+    margin-top: -10px;
+    height: 155px;
+    }
 .semi-transparent-bar {
     background-color:#FFBE4D;
     opacity:0.42;
@@ -61,30 +49,36 @@ hr {
     margin-left: -100px;
     margin-right: -100px;
     margin-bottom: 0px;
-    height: 192px; 
+    height: 205px;
+    
 }
-
 .tv  {
     width: 230px;
     height:210px;
-    transform:translate(0%, 4%);
-    word-break: normal;
+    margin-top: 15px;
 }
-
 h2 {
     font-weight: bolder;
 }
-
-.checkmark-action {
-    width: 100px;
-    height: 100px;
-    margin-top: -80px;
+.icon-in-banner {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-template-columns: auto auto auto auto auto;
+    position: relative;
+    top: 13px;
+    justify-content: space-evenly;
 }
-
 .bottom-of-page-action {
     color:#FFBE4D; 
-    font-size:16pt;
-    text-align: top;
+    font-size: 1.5vw;
+    text-align: center;
+    position: relative;
+    bottom: 17px;
 }
-</style>
-</head>
+a:hover {
+    color: white;
+    transform: scale(1.2);
+}
+a img:hover {
+    transform: scale(1.2);
+}
