@@ -1,9 +1,23 @@
 .nav li { display: inline-block;
 }
+
 .dropdown { padding-left: 15px;
             padding-right: 18px;
 }
-body {
+
+/* body {
+    background-image: url(../images/camera-coffee-computer-705164.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Agency FB', arial;
+    font-size: 48px;
+    text-shadow: 4px #aaa;
+    text-align: center;
+    color: #FFFFFF;
+} */
+.page-1 {
     background-image: url(../images/camera-coffee-computer-705164.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -15,14 +29,49 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-.banner {
+
+.page-2 {
+    background-image: url(../images/business-cellular-telephone-communication-682933.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Agency FB', arial;
+    font-size: 48px;
+    text-shadow: 4px #aaa;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#banner-fx {
+    animation-name: fade-in;
+    animation-duration: 1s;
     font-size: 13vw;
     font-weight: bold;
     text-justify: inter-word;
     margin-top: 10px;
-    margin-bottom: 0px;
-    text-shadow: 4px 2px #000000;
+    margin-bottom: -5%;
+    text-shadow: 4px 2px #000000;  
 }
+
+@keyframes fade-in {
+    0% {
+        color: white;
+        opacity: 0;
+        font-size: 11vw;
+    }
+    50% {
+        color: white;
+        opacity: 0.10;
+        font-size: 12vw;
+    }
+    100% {
+        color: white;
+        opacity: 1;
+        font-size: 13vw;
+    }
+}
+
 hr {
     display: block;
     margin-top: 0px;
@@ -30,15 +79,17 @@ hr {
     margin-left: -50px;
     margin-right: 0px;
     border-style: solid;
-    border-width: 3px;
-    border-color: #FFFFFF;
+    border-width: 1px;
+    border-color: black;
 }
+
 .icon-banner {
     background-color:#FFFFFF;
     padding: 0px;
     margin-bottom: -10px;
     margin-top: -10px;
-    }
+}
+
 .semi-transparent-bar {
     background-color:#FFBE4D;
     opacity:0.42;
@@ -51,14 +102,17 @@ hr {
     height: 205px;
     
 }
+
 .tv  {
     width: 230px;
     height:210px;
     margin-top: 15px;
 }
+
 h2 {
     font-weight: bolder;
 }
+
 .icon-in-banner {
     display: grid;
     grid-column-gap: 1px;
@@ -70,6 +124,7 @@ h2 {
     height: auto;
     width: 100%;
 }
+
 .bottom-of-page-action {
     color:#FFBE4D; 
     font-size: 1.5vw;
@@ -77,10 +132,12 @@ h2 {
     position: relative;
     bottom: 17px;
 }
+
 a:hover {
     color: white;
     transform: scale(1.2);
 }
+
 a img:hover {
     transform: scale(1.2);
 }
