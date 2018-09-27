@@ -1,8 +1,16 @@
 .nav li { display: inline-block;
 }
 
-.dropdown { padding-left: 15px;
-            padding-right: 18px;
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.dropdown {
+    padding-left: 15px;
+    padding-right: 18px;   
+    border-right:solid 1px #fff;
+    font-size: 50%;
 }
 
 /* body {
@@ -17,7 +25,7 @@
     text-align: center;
     color: #FFFFFF;
 } */
-.page-1 {
+.intro-page {
     background-image: url(../images/camera-coffee-computer-705164.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -30,7 +38,7 @@
     color: #FFFFFF;
 }
 
-.page-2 {
+.home-page {
     background-image: url(../images/business-cellular-telephone-communication-682933.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -45,13 +53,14 @@
 
 #banner-fx {
     animation-name: fade-in;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
     font-size: 13vw;
     font-weight: bold;
     text-justify: inter-word;
     margin-top: 10px;
     margin-bottom: -5%;
-    text-shadow: 4px 2px #000000;  
+    text-shadow: 4px 2px #000000;
 }
 
 @keyframes fade-in {
