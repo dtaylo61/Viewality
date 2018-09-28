@@ -32,7 +32,8 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="bs_js/bootstrap.min.js"></script>            
+            <script src="bs_js/bootstrap.min.js"></script>
+            <script src="/view_js/mods.js"></script> 
     </head>
     
     <body>
@@ -98,7 +99,16 @@
                     <!-- Navigation buttons -->
                     <!-- Collapse content -->         
                     <div class="collapse navbar-collapse navHeaderCollapse">
-                        <div class="nav navbar-nav menu">
+                        <div class="nav navbar-nav menu"> 
+                            
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Cat1<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Select1</a></li>
+                                        <li><a href="#">Select2</a></li>
+                                        <li><a href="#">Select3</a></li>
+                                    </ul>
+                                </div>
                             
                             
                                 <div class="dropdown">
@@ -109,16 +119,6 @@
                                         <li><a href="#">Select3</a></li>
                                     </ul>
                                 </div>
-                            
-                            
-                                <div class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cat1<span class="caret"></span></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">Select1</a></li>
-                                            <li><a href="#">Select2</a></li>
-                                            <li><a href="#">Select3</a></li>
-                                        </ul>
-                                    </div>
 
                                     <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cat1<span class="caret"></span></a>
@@ -250,7 +250,5 @@
     <div>
             <a href="#" class="bottom-of-page-action">--- Intro ---</a>
             </div>
-    <br />
-    <br />
     </body>
 </html>
